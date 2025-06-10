@@ -12,7 +12,7 @@ type Mahasiswa struct {
 	Aktif bool
 }
 
-func main() {
+func masins() {
 
 	// slice
 	daftarMahasiswa := []Mahasiswa{}

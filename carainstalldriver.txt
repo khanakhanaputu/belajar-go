@@ -1,0 +1,6 @@
+go mod init namafoler
+
+go get urldriver.com
+
+go mod tidy
+
