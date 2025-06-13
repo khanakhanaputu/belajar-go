@@ -41,7 +41,7 @@ func selectAll() {
 	fmt.Printf("berhasil mengambil data dari database: %d\n", len(daftarBarang))
 
 	for _, barang := range daftarBarang {
-		fmt.Printf("Nama Barang: %s Dengan harga: %d Stok %d \n", barang.NamaBarang, barang.HargaBarang, barang.Stok)
+		fmt.Printf("Nama Barang: %s Dengan hargaa: %d Stok %d \n", barang.NamaBarang, barang.HargaBarang, barang.Stok)
 	}
 }
 
